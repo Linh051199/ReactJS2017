@@ -1,0 +1,81 @@
+/* h3 gọi là selector
+    External file */
+.first-h3{
+    color: red;
+    font-size: 30px;
+}
+
+#second-h3{
+    color: pink;
+}
+
+.bg-gray{
+    background-color: gray;
+}
+
+p{
+    font-size: 20px;
+}
+
+.container .description{
+    font-size: 30px;;
+}
+
+.container>section{
+    border: 1px solid blue;
+}
+/* ~,+ : sibling */
+
+div+p{
+    color: blue;
+}
+
+div~p{
+    color: purple;
+}
+
+table tr td:last-child{
+    color: blue;
+}
+
+table tr td:first-child{
+    color: red;
+}
+
+table tr td:nth-child(2){
+    color:pink;
+}
+
+/* tuowng tự như trên đếm từ ngoài vào
+table tr td:nth-last-child(){
+    color:pink;
+} */
+
+.input{
+    background-color: gray;
+}
+
+.input:hover {
+    background-color: black;
+}
+
+.input:focus{
+    background-color: red;
+}
+
+a{
+    color: green;
+}
+
+a:visited{
+    color: black;
+}
+
+a:active{
+    color: purple;
+}
+
+p::first-letter{
+    color: yellow;
+}
+
